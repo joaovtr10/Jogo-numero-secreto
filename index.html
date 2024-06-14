@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do número secreto</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__conteudo">
+            <h1><span class="container__texto-azul">Bem vindo</span> ao jogo do número secreto, boa sorte.</h1>
+            <p>Digite um número entre <span class="container__texto-azul">1</span> e <span class="container__texto-azul">100</span></p>
+            <input type="text" id="numero" placeholder="Digite aqui">
+            <button onclick="verificarNumero()" class="container__botao">Verificar</button>
+            <p id="maiorOuMenorQ"></p>
+            <p id="tentaDNV"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
